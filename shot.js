@@ -12,7 +12,7 @@ length:12,
   
 this.shot=Constraint.create(options);
 this.pointB=pointB;
-World.add(world,this.sling);
+World.add(world,this.shot);
 }
 fly (){
   this.shot.bodyA=null
