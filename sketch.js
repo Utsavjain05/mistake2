@@ -9,14 +9,15 @@ function setup(){
 var canvas = createCanvas(1200,400);
     engine = Engine.create();
     world = engine.world;
-}
-
-function setup(){
-ball1= new ball(100,100);
+    ball1= new ball(100,100);
 shot=new shot(ball1.body,{x:100,y:70});
 enemy1=new enemy (150,100);
-
 }
+
+
+
+
+
 
 function draw(){
 Engine.update(engine);
