@@ -4,7 +4,7 @@ constructor(bodyA,pointB){
 
   var options={
 bodyA:bodyA,
-bodyB:pointB,
+pointB:pointB,
 stiffness:0.05,
 length:12,
 
